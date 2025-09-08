@@ -22,12 +22,63 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
+    ffzy: {
+        api: 'http://ffzy5.tv',
+        name: '非凡影视',
+        detail: 'http://ffzy5.tv'
+    },
+    tyyszy: {
+        api: 'https://tyyszy.com',
+        name: '天涯资源',
+    },
+    zy360: {
+        api: 'https://360zy.com',
+        name: '360资源',
+    },
+    wolong: {
+        api: 'https://wolongzyw.com',
+        name: '卧龙资源',
+    },
+    jisu: {
+        api: 'https://jszyapi.com',
+        name: '极速资源',
+        detail: 'https://jszyapi.com'
+    },
+    dbzy: {
+        api: 'https://dbzy.com',
+        name: '豆瓣资源',
+    },
+    bfzy: {
+        api: 'https://bfzyapi.com',
+        name: '暴风资源',
+    },
+    mozhua: {
+        api: 'https://mozhuazy.com',
+        name: '魔爪资源',
+    },
+    mdzy: {
+        api: 'https://www.mdzyapi.com',
+        name: '魔都资源',
+    },
+    ruyi: {
+        api: 'https://cj.rycjapi.com',
+        name: '如意资源',
+    },
+    jkun: {
+        api: 'https://jkunzyapi.com',
+        name: 'jkun资源',
         adult: true
-    }
-    //ARCHIVE https://telegra.ph/APIs-08-12
+    },
+    bwzy: {
+        api: 'https://api.bwzym3u8.com',
+        name: '百万资源',
+        adult: true
+    },
+    girigiri: {
+        api: 'https://anime.girigirilove.com',
+        name: 'girigirilove',
+    },
+    // 您可以按需添加更多源
 };
 
 // 定义合并方法
